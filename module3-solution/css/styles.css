@@ -1,0 +1,59 @@
+body {
+  font-size: 16px;
+  color: Black;
+  background-color: papayawhip;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: orangered;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  margin: 10px;
+}
+.navbar-brand h1 {
+  color: darkblue;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px cadetblue;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: darkblue;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid darkblue;
+}
+
+/* END HEADER */
+
+/*main page*/
+.row div{
+  background-color: burlywood;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 15px;
+  height: 1000px;
+}
+
+h2, h3{
+  font-weight: bold;
+}
