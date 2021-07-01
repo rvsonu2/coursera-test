@@ -51,7 +51,7 @@ body {
   border: 1px solid black;
   padding: 10px;
   margin: 15px;
-  height: 1000px;
+  overflow: hidden;
 }
 
 h2, h3{
